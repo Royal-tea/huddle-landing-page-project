@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+html {
+  font-size: 100%;
+  color: white;
+  background-color: #674baf;
+  background-image: url(../images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin: 10% 10% 0 10%;
+  min-height: 100%;
+}
+
+header img {
+  width: 40%;
+  padding-bottom: 10%;
+}
+
+.heroImage img {
+  width: 100%;
+}
+
+.heroText {
+  text-align: center;
+}
+
+.heroText button {
+  width: 30%;
+  padding: 1rem;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: #674baf;
+}
+
+.heroText button:hover {
+  color: white;
+  background-color: #e882e8;
+  cursor: pointer;
+}
+
+.socials {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.socials img {
+  width: 25px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 0.5em;
+  margin: 5px;
+  -webkit-filter: invert(99%) sepia(3%) saturate(174%) hue-rotate(242deg) brightness(114%) contrast(100%);
+          filter: invert(99%) sepia(3%) saturate(174%) hue-rotate(242deg) brightness(114%) contrast(100%);
+}
+
+.socials img:hover {
+  -webkit-filter: invert(79%) sepia(15%) saturate(4046%) hue-rotate(245deg) brightness(97%) contrast(87%);
+          filter: invert(79%) sepia(15%) saturate(4046%) hue-rotate(245deg) brightness(97%) contrast(87%);
+  cursor: pointer;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.attribution {
+  color: rgba(245, 245, 245, 0.726);
+  font-size: 11px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.attribution a {
+  color: rgba(255, 255, 255, 0.589);
+}
+
+@media (min-width: 769px) {
+  html {
+    background-image: url(/images/bg-desktop.svg);
+    background-size: auto 100%;
+    height: 100vh;
+  }
+  body {
+    margin: 5% 5% 0 5%;
+  }
+  header img {
+    max-width: 20%;
+    padding-bottom: 8%;
+  }
+  .heroText {
+    margin-left: 4%;
+    text-align: left;
+  }
+  .heroImage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .heroImage img {
+    width: 50%;
+    height: 50%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .socials {
+    text-align: right;
+    margin: 2rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
