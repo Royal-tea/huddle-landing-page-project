@@ -25,17 +25,29 @@ header img {
   width: 100%;
 }
 
+h1 {
+  margin-right: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  color: #E1CFF0;
+}
+
 .heroText {
   text-align: center;
 }
 
 .heroText button {
+  font-size: .8em;
   width: 30%;
   padding: 1rem;
   border: none;
   border-radius: 20px;
   background-color: white;
   color: #674baf;
+  -webkit-box-shadow: 7px 9px 24px #553D90;
+          box-shadow: 7px 9px 24px #553D90;
 }
 
 .heroText button:hover {
@@ -87,12 +99,13 @@ footer {
 
 @media (min-width: 769px) {
   html {
-    background-image: url(../images/bg-desktop.svg);
-    background-size: auto 100%;
+    background-image: url(/images/bg-desktop.svg);
+    background-size: 1200px 100%;
     height: 100vh;
   }
   body {
     margin: 5% 5% 0 5%;
+    font-size: 1.2em;
   }
   header img {
     max-width: 20%;
@@ -101,6 +114,9 @@ footer {
   .heroText {
     margin-left: 4%;
     text-align: left;
+  }
+  .heroText button {
+    width: 170px;
   }
   .heroImage {
     display: -webkit-box;

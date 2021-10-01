@@ -27,15 +27,26 @@ header img {
   width: 100%;
 }
 
+h1{
+  margin-right: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  color: #E1CFF0;
+}
+
 .heroText {
   text-align: center;
   button {
+    font-size: .8em;
     width: 30%;
     padding: 1rem;
     border: none;
     border-radius: 20px;
     background-color: white;
     color: hsl(257, 40%, 49%);
+    box-shadow: 7px 9px 24px #553D90;
   }
   button:hover {
     color: white;
@@ -84,12 +95,13 @@ footer {
 @media (min-width: 769px) {
   html {
     background-image: url(/images/bg-desktop.svg);
-    background-size: auto 100%;
+    background-size: 1200px 100%;
     height: 100vh;
   }
 
   body {
     margin: 5% 5% 0 5%;
+    font-size: 1.2em;
   }
 
   header img {
@@ -100,6 +112,9 @@ footer {
   .heroText {
     margin-left: 4%;
     text-align: left;
+    button{
+      width: 170px;
+    }
   }
 
   .heroImage {
